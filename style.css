@@ -375,5 +375,102 @@ img{
 }
 
 @media screen and (max-width: 768px) {
-    
+    svg{
+        width: 21vw;
+    }
+    .info h3 {
+        font-size: 3vw;
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        color: lightcoral;
+        font-family: cursive;
+    }
+    .phone{
+        color: black;
+        font-size: 3.4vw;
+    }
+    .action a{
+        font-size: 3.4vw;
+    }
+    .info p {
+        text-align: center;
+        font-size: 2.6vw;
+        width: 61%;
+        margin: 1.5vw auto;
+        font-family: cursive;
+    }
+    .info a p{
+        font-size: 2.8vw;
+    }
+    .button{
+        width: 14vw;
+    }
+    a{
+        color: black;
+        font-size: 2.8vw;
+    }
+    h4 {
+        font-family: cursive;
+        font-size: 5vw;
+        padding-left: 1vw;
+        margin-block-start: 1vw;
+        color: lightcoral;
+        margin-block-end: 1vw;
+    }
+    img {
+        height: 24vw;
+    }
+    .naval h3 {
+        font-family: cursive;
+        font-size: 3.5vw;
+        color: lightcoral;
+        margin-block-start: 0;
+    }
+    .naval p {
+        font-family: cursive;
+        color: lightcoral;
+        margin: 1vw 7.3vw;
+        font-size: 2vw;
+    }
+    .FAQ h3 {
+        font-family: cursive;
+        font-size: 4vw;
+        margin-block-start: 0;
+        padding-top: 1vw;
+        color: lightcoral;
+        text-align: center;
+    }
+    .accordion{
+        font-size: 2.4vw;
+    }
+    .banner {
+        height: 54vw;
+    }
+    .panel p {
+        font-family: cursive;
+        font-size: 2.1vw;
+    }
+    .bottom {
+        width: 100%;
+        height: 14vw;
+        background: darksalmon;
+        display: flex;
+        justify-content: space-around;
+    }
+    .bottom h4 {
+        color: white;
+        font-size: 2.5vw;
+        margin-block-start: 0;
+    }
+    .bottom li a {
+        color: white;
+        text-decoration: none;
+        font-size: 2.1vw;
+        font-family: cursive;
+    }
+    .bottom svg {
+        margin: auto;
+        width: 17vw;
+    }
 }
